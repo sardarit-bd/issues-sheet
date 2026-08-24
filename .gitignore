@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+*.swp
+*.swo
+
+# Build / cache
+dist/
+build/
+.cache/
+.npm/
+
+# Temporary files
+tmp/
+temp/
+
+# Test / coverage
+coverage/
+
+# Runtime data
+*.pid
+*.pid.lock
+
+# Google credentials / service account
+credentials.json
+service-account.json
+*-credentials.json
+
+# Local secrets
+secrets/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
